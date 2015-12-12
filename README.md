@@ -33,6 +33,17 @@ Converting the RSSI values to distances was a matter of trial and error.  I also
 
 Supposedly, different bluetooth devices are going to have varying signal strengths, but the smattering of iOS devices we measured reported the same values.
 
+## How to test the project
+
+The project uses `EasyLayout` as a submodule. Thus we need to grab its sourcecode first before we can build and test the project.
+Follow the following steps.
+
+1. Clone the project via `git clone <link>`. The link can be find on github page.
+2. Execute `cd Easylayout`.
+3. Execute `git submodule init`.
+4. Execute `git submodule update`.
+5. Open `Vicinity.xcworkspace`. Please note it's a workspace project.
+6. Build and run the project normally.
 
 ## Conclusion
 
